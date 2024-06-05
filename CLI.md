@@ -15,9 +15,3 @@ npm i dotenv
 
 >> intall zod for validation ("Environment variables)
 npm i zod
-
->> install eslint
-npm i eslint -D
-
->> config eslint
-npx eslint --init
