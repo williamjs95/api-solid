@@ -15,3 +15,6 @@ npm i dotenv
 
 >> intall zod for validation ("Environment variables)
 npm i zod
+
+>> install ESLint with RocketSeat configuration package
+npm i eslint @rocketseat/eslint-config -D
