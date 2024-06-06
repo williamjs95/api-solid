@@ -18,3 +18,15 @@ npm i zod
 
 >> install ESLint with RocketSeat configuration package
 npm i eslint @rocketseat/eslint-config -D
+
+>> install Prisma (Object Relational Mapper)
+npm i prisma -D
+
+>> run Prisma
+npx prisma init
+
+>> generates Prisma schema types
+npx prisma generate
+
+>> install prisma instance
+npm i @prisma/client
