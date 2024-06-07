@@ -30,3 +30,39 @@ npx prisma generate
 
 >> install prisma instance
 npm i @prisma/client
+
+>> create postgre docker image
+docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5432:5432 bitnami/postgresql 
+
+>> show running containers
+docker ps
+
+>> show all created containers
+docker ps -a
+
+>> run docker container
+docker start api-solid-pg
+
+>> stop docker container
+docker stop api-solid-pg
+
+>> show cotainer logs
+docker logs api-solid-pg -f
+
+>> delete docker container
+docker rm api-solid-pg
+
+>> migrate databese
+npx prisma migrate dev
+
+>> open Prisma database interface
+npx prisma studio
+
+>> run docker container (docker compose)
+docker compose up -d
+
+>> stop docker container (docker compose)
+docker compose stop
+
+>> delete docker container (docker compose)
+docker compose down
