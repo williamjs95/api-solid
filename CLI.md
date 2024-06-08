@@ -52,7 +52,7 @@ docker logs api-solid-pg -f
 >> delete docker container
 docker rm api-solid-pg
 
->> migrate databese
+>> migrate schema.prisma to databese
 npx prisma migrate dev
 
 >> open Prisma database interface
