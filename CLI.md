@@ -66,3 +66,9 @@ docker compose stop
 
 >> delete docker container (docker compose)
 docker compose down
+
+>> to make passwords hash
+npm i bcryptjs
+
+>> install typescript for bcryptjs
+npm i -D @types/bcryptjs
