@@ -3,5 +3,7 @@
   "rules": {
     "camelcase": "off",
     "no-useless-constructor": "off",
+    "indent": ["error", 2],
+    "no-tabs": "error" 
   }
 }
