@@ -72,3 +72,6 @@ npm i bcryptjs
 
 >> install typescript for bcryptjs
 npm i -D @types/bcryptjs
+
+>> intall vitest for unit tests, and vite-tsconfig so vitest understand the paths of the application
+npm i vitest vite-tsconfig-paths -D
