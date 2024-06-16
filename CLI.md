@@ -76,5 +76,8 @@ npm i -D @types/bcryptjs
 >> intall vitest for unit tests, and vite-tsconfig so vitest understand the paths of the application
 npm i vitest vite-tsconfig-paths -D
 
->> intall vitest UI
+>> install vitest UI
 npm i -D @vitest/ui
+
+>> install dayjs for date manipulation
+npm i dayjs
