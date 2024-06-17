@@ -10,7 +10,7 @@ GymPass style app.
 - [x] It should be possible to retrieve the number of check-ins performed by the logged-in user;
 - [x] It should be possible for the user to retrieve their check-in history;
 - [ ] It should be possible for the user to search for nearby gyms;
-- [ ] It should be possible for the user to search for gyms by name;
+- [x] It should be possible for the user to search for gyms by name;
 - [x] It should be possible for the user to check in at a gym;
 - [ ] It should be possible to validate a user's check-in;
 - [x] It should be possible to register a gym;
