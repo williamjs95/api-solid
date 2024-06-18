@@ -93,3 +93,9 @@ npm link vitest-environment-prisma
 
 >> to execute scripts in the system environment
 npm install -D npm-run-all
+
+>> to do http tests
+npm i supertest -D
+
+>> intall types for supertest
+npm i @types/supertest -D
