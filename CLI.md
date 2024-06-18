@@ -81,3 +81,6 @@ npm i -D @vitest/ui
 
 >> install dayjs for date manipulation
 npm i dayjs
+
+>> install JWT for fastify
+npm i @fastify/jwt
