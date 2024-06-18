@@ -84,3 +84,9 @@ npm i dayjs
 
 >> install JWT for fastify
 npm i @fastify/jwt
+
+>> link vitest-environment-prisma package to the app global package (cd: vitest-environment-prisma)
+npm link
+
+>> link the app global package to vitest-environment-prisma (cd: api-solic)
+npm link vitest-environment-prisma
