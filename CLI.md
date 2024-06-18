@@ -90,3 +90,6 @@ npm link
 
 >> link the app global package to vitest-environment-prisma (cd: api-solic)
 npm link vitest-environment-prisma
+
+>> to execute scripts in the system environment
+npm install -D npm-run-all
