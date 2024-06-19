@@ -13,7 +13,7 @@
     "pretest:e2e": "run-s test:create-prisma-environment test",
     "test:watch": "vitest --watch",
     "test:e2e": "vitest src/http",
-    "test:e2e:watch": "vitest run --dir src/http",
+    "test:e2e:watch": "vitest src/http --watch",
     "test:coverage": "vitest run --coverage",
     "test:ui": "vitest --ui"
   },
