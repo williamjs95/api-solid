@@ -99,3 +99,6 @@ npm i supertest -D
 
 >> intall types for supertest
 npm i @types/supertest -D
+
+>> to generate a secret refreshToken
+npm i @fastify/cookie
